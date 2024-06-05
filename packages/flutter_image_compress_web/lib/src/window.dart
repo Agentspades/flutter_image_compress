@@ -1,11 +1,11 @@
 @JS()
 library window;
 
-import 'dart:html';
 import 'dart:typed_data';
 
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart';
 
 @JS()
 @staticInterop

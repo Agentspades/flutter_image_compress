@@ -2,12 +2,12 @@
 library pica;
 
 import 'dart:convert';
-import 'dart:html';
 import 'dart:typed_data';
 
 import 'package:flutter_image_compress_platform_interface/flutter_image_compress_platform_interface.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
+import 'package:universal_html/html.dart';
 
 import 'window.dart';
 import 'log.dart' as logger;
